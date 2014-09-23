@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ObscuraPlus</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear">Clear Details</string>
+    <string name="action_map">Show On Map</string>
+    <string name="title_activity_picture_details">Picture Details</string>
+    <string name="clear_options_prompt">Choose clear method</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string-array name="clear_options_array">
+        <item>GPS Data</item>
+        <item>All Data</item>
+    </string-array>
+
+</resources>
