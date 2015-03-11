@@ -104,6 +104,7 @@ public class PictureDetailsActivity extends ActionBarActivity implements View.On
                 ExifInterface exif = new ExifInterface(imageWithPath);
                 if(exif.getLatLong(latLong)) {
                     String uri = "geo:" + latLong[0] + "," + latLong[1];
+
                     Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
                     startActivity(intent);
                 }
